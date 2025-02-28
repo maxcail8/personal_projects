@@ -1,5 +1,38 @@
-# Vue 3 + TypeScript + Vite
+# People Charts
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Requisiti
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Setup progetto **People Charts**.
+
+Requisiti principali:
+
+- Installazione di Node.js (es. `v22.14.0` LTS version)
+- Installazione di VSCode
+- Estensione _Live Server_ di VSCode
+
+## Setup del progetto
+
+### Clonazione del repository in locale
+
+```ps1
+git clone git@github.com:maxcail8/personal_projects.git
+```
+
+### Se necessario, switch della versione di Node.js utilizzata
+
+```ps1
+nvm use 22.14.0
+```
+
+### Posizionamento nella cartella /charts
+
+```ps1
+cd charts/
+```
+
+### Esecuzione dei comandi
+
+```ps1
+npm ci
+npm run dev
+```
