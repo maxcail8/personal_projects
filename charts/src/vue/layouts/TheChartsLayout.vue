@@ -1,9 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ChartsPage from '../pages/ChartsPage.vue'
+import ProductPage from '../pages/ProductPage.vue'
+</script>
 
 <template>
-  <div
-    class="h-full bg-cyan-100 flex justify-center items-center font-bold text-2xl"
-  >
-    INIT
-  </div>
+  <ChartsPage />
+  <ProductPage />
 </template>

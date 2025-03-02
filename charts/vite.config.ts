@@ -13,9 +13,9 @@ export default defineConfig(({ mode }) => {
       outDir: './dist',
       lib: {
         entry: path.resolve(__dirname, './src/main.ts'),
-        name: 'PeopleCharts',
+        name: 'ProductCharts',
         formats: ['umd'],
-        fileName: (format) => `people_charts.${format}.js`
+        fileName: (format) => `product_charts.${format}.js`
       },
       emptyOutDir: false,
       rollupOptions: {
@@ -23,7 +23,7 @@ export default defineConfig(({ mode }) => {
           globals: {
             vue: 'Vue'
           },
-          assetFileNames: 'people_charts.css'
+          assetFileNames: 'product_charts.css'
         }
       },
       sourcemap: true,

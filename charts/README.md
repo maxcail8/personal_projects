@@ -1,8 +1,8 @@
-# People Charts
+# Product Charts
 
 ## Requisiti
 
-Setup progetto **People Charts**.
+Setup progetto **Product Charts**.
 
 Requisiti principali:
 
